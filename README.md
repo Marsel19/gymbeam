@@ -13,6 +13,9 @@ Repository: (https://github.com/Marsel19/gymbeam.git)
 To use the App you need to call endpoint `localhost:3000/getProductPositions`.
 It is a POST method and the payload object in JSON format contains properties: `product` and `workerPosition`.
 
+The `product` is the name of searching product.
+The `workerPosition` is current position of an employee.
+
 The format of JSON property is:
 {
     "product": string,

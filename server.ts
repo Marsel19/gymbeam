@@ -67,5 +67,5 @@ app.post("/getProductPositions", async (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`TypeScript with Express http://localhost:${port}/`);
+    console.log(`The server is running on the port ${port}`);
 });
